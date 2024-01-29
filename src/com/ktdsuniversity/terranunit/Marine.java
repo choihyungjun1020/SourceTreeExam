@@ -31,6 +31,11 @@ public class Marine implements SpecialCommand {
 	public void steampack() {
 		System.out.println("더 빠르게 공격");
 	}
+
+	@Override
+	public void bomb() {
+		
+	}
 	
 	public static void main(String[] args) {
 		SpecialCommand marine = new Marine();
